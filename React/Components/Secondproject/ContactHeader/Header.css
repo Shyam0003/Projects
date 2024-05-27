@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    max-width: 1000px;
+    width: 80%;
+}
+.sub-main{
+    padding: 0 0 10px 130px;
+    width: 100%;
+}
+.sub-main h1{
+    font-weight: 800;
+    max-width: 80%;
+    padding: 50px 0 0 0;
+}
+.sub-main p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    /* border: 1px solid black; */
+    padding: 0px 0px;
+    width: 110%;
+    margin: 10px 80px;
+}
+.part1{
+    /* border: 1px solid black ; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px 10px 0 10px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+    width: 370px;
+}
+.btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+.big-btn{
+    padding: 15px 0;
+}
+.big-btn button{
+    padding: 10px 0;
+    width: 370px;
+    background-color: #fff;
+    color: #222;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sub-inputs{
+    display: grid;
+    place-items: center;
+    row-gap: 15px;
+}
+.sub-inputs input{
+    width: 94%;
+    padding: 8px 15px;
+    border: none;
+    background-color: rgb(210, 210, 210);
+    border-radius: 5px;
+}
+::placeholder{
+    color: #000;
+}
+/* .sec-input{
+    display: grid;
+    place-items: center;
+    padding: 15px 0;
+} */
+.inputs .submit-btn{
+    display: flex;
+    justify-content: end;
+    padding: 10px 13px 0 0;
+
+}
+.submit-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 26px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+.part2 img{
+    width: 102%;
+    padding: 10px 10px 0 10px;
+}

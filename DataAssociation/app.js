@@ -46,7 +46,7 @@ app.get("/post/create", async function (req, res) {
     } catch (err) {
         console.error(err);
         res.status(500).send("Error creating post or updating user");
-    }``
+    }
 });
 
 // Start the server
